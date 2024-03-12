@@ -1,0 +1,32 @@
+cell1,cell2,cell3,cell4,cell5
+RIBabcpp,atp[c] + h2o[c] + rib_D[p]  -> adp[c] + h[c] + pi[c] + rib_D[c] ,Transport Inner Membrane,D ribose transport via ABC system periplasm ,( ( b4231  and  b4227  and  b4485  and  b4230 )  or  ( b3749  and  b3751  and  b3750  and  b3748 )  or  ( b4087  and  b4088  and  b4086 ) )
+RIBabcpp,atp[c] + h2o[c] + rib_D[p]  -> adp[c] + h[c] + pi[c] + rib_D[c] ,Transport Inner Membrane,D ribose transport via ABC system periplasm ,( ( b4231  and  b4227  and  b4485  and  b4230 )  or  ( b3749  and  b3751  and  b3750  and  b3748 )  or  ( b4087  and  b4088  and  b4086 ) )
+MDH,mal_L[c] + nad[c]  <=> h[c] + nadh[c] + oaa[c] ,Citric Acid Cycle,malate dehydrogenase,b3236
+MDH,mal_L[c] + nad[c]  <=> h[c] + nadh[c] + oaa[c] ,Citric Acid Cycle,malate dehydrogenase,b3236
+RIBabcpp,atp[c] + h2o[c] + rib_D[p]  -> adp[c] + h[c] + pi[c] + rib_D[c] ,Transport Inner Membrane,D ribose transport via ABC system periplasm ,( ( b4231  and  b4227  and  b4485  and  b4230 )  or  ( b3749  and  b3751  and  b3750  and  b3748 )  or  ( b4087  and  b4088  and  b4086 ) )
+RIBabcpp,atp[c] + h2o[c] + rib_D[p]  -> adp[c] + h[c] + pi[c] + rib_D[c] ,Transport Inner Membrane,D ribose transport via ABC system periplasm ,( ( b4231  and  b4227  and  b4485  and  b4230 )  or  ( b3749  and  b3751  and  b3750  and  b3748 )  or  ( b4087  and  b4088  and  b4086 ) )
+RIBabcpp,atp[c] + h2o[c] + rib_D[p]  -> adp[c] + h[c] + pi[c] + rib_D[c] ,Transport Inner Membrane,D ribose transport via ABC system periplasm ,( ( b4231  and  b4227  and  b4485  and  b4230 )  or  ( b3749  and  b3751  and  b3750  and  b3748 )  or  ( b4087  and  b4088  and  b4086 ) )
+THZPSN,atp[c] + cys_L[c] + dxyl5p[c] + tyr_L[c]  -> 4hba[c] + 4mpetz[c] + ala_L[c] + amp[c] + co2[c] + h2o[c] + h[c] + ppi[c] ,Cofactor and Prosthetic Group Biosynthesis,thiazole phosphate synthesis,( b2530  and  b3992  and  ( b3990  and  b3991 )  and  b0423  and  b4407 )
+THZPSN,atp[c] + cys_L[c] + dxyl5p[c] + tyr_L[c]  -> 4hba[c] + 4mpetz[c] + ala_L[c] + amp[c] + co2[c] + h2o[c] + h[c] + ppi[c] ,Cofactor and Prosthetic Group Biosynthesis,thiazole phosphate synthesis,( b2530  and  b3992  and  ( b3990  and  b3991 )  and  b0423  and  b4407 )
+THZPSN,atp[c] + cys_L[c] + dxyl5p[c] + tyr_L[c]  -> 4hba[c] + 4mpetz[c] + ala_L[c] + amp[c] + co2[c] + h2o[c] + h[c] + ppi[c] ,Cofactor and Prosthetic Group Biosynthesis,thiazole phosphate synthesis,( b2530  and  b3992  and  ( b3990  and  b3991 )  and  b0423  and  b4407 )
+THZPSN,atp[c] + cys_L[c] + dxyl5p[c] + tyr_L[c]  -> 4hba[c] + 4mpetz[c] + ala_L[c] + amp[c] + co2[c] + h2o[c] + h[c] + ppi[c] ,Cofactor and Prosthetic Group Biosynthesis,thiazole phosphate synthesis,( b2530  and  b3992  and  ( b3990  and  b3991 )  and  b0423  and  b4407 )
+THZPSN,atp[c] + cys_L[c] + dxyl5p[c] + tyr_L[c]  -> 4hba[c] + 4mpetz[c] + ala_L[c] + amp[c] + co2[c] + h2o[c] + h[c] + ppi[c] ,Cofactor and Prosthetic Group Biosynthesis,thiazole phosphate synthesis,( b2530  and  b3992  and  ( b3990  and  b3991 )  and  b0423  and  b4407 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+DSBCGT,dsbcox[p] + 2 gthrd[p]  -> dsbcrd[p] + gthox[p] ,Unassigned,DsbCglutathione thiotransferase,b2893
+TDSR1,dsbcox[p] + dsbdrd[c]  -> dsbcrd[p] + dsbdox[c] ,Transport Inner Membrane,thioldisulfide reductase DsbC ,( b2893  and  b4136 )
+MDH,mal_L[c] + nad[c]  <=> h[c] + nadh[c] + oaa[c] ,Citric Acid Cycle,malate dehydrogenase,b3236

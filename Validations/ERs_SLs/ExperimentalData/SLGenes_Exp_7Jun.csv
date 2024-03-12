@@ -1,0 +1,139 @@
+Query-mutant-straina,Query- strain-bnumberb,Recipient-mutant-strain,bnumber-of-recipient-mutant-strain,Strain-Versionsc,Essentiality,Functional-Association,S,Z,LOG(Q/R)
+ykgE,b0306,tolC,b3035,Isolate 2,non-essential,No functional association with STRING,-5.619,-15.509,-11.3223
+ykgE,b0306,ubiE,b3833,Isolate 1,non-essential,No functional association with STRING,-1.693,-4.002,-11.2281
+mfd,b1114,lpd,b0116,Isolate 1,non-essential,No functional association with STRING,-5.961,-4.971,-10.9891
+mfd,b1114,dadA,b1189,Isolate 1,non-essential,No functional association with STRING,-12.826,-10.865,-10.9891
+mfd,b1114,hns,b1237,Isolate 1,non-essential,No functional association with STRING,-5.058,-4.196,-10.9891
+mfd,b1114,ccmC,b2199,Isolate 1,non-essential,No functional association with STRING,-7.297,-6.118,-10.9891
+mfd,b1114,purC,b2476,Isolate 1,non-essential,No functional association with STRING,-9.878,-8.334,-10.9891
+mfd,b1114,recC,b2822,Isolate 1,non-essential,No functional association with STRING,-5.36,-4.456,-10.9891
+ycjR,b1314,hybB,b2995,Isolate 1,non-essential,No functional association with STRING,-13.846,-19.106,-11.364
+ycjR,b1314,yhaC,b3121,Isolate 1,non-essential,No functional association with STRING,-14.743,-20.348,-11.364
+ycjR,b1314,selA,b3591,Isolate 2,non-essential,No functional association with STRING,-4.279,-5.994,-12.2779
+sufS,b1680,fdx,b2525,Isolate 2,non-essential,No functional association with STRING,-10.72,-12.597,-11.5534
+sufS,b1680,iscS,b2530,Isolate 2,non-essential,Functional association with STRING,-4.052,-4.655,-11.5534
+sufD,b1681,fdx,b2525,Isolate 2,non-essential,No functional association with STRING,-10.72,-11.553,-10.9164
+sufD,b1681,iscS,b2530,Isolate 2,non-essential,Functional association with STRING,-4.052,-4.241,-10.9164
+sufB,b1683,mdlB,b0449,Isolate 1,non-essential,No functional association with STRING,-3.229,-4.165,-11.2632
+sufB,b1683,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-17.179,-11.244
+sufB,b1683,ccmC,b2199,Isolate 1,non-essential,No functional association with STRING,-7.297,-9.601,-11.2632
+sufB,b1683,fdx,b2525,Isolate 1,non-essential,No functional association with STRING,-11.421,-15.111,-11.2632
+sufB,b1683,fdx,b2525,Isolate 2,non-essential,No functional association with STRING,-10.72,-13.616,-11.244
+sufB,b1683,hscB,b2527,Isolate 2,non-essential,No functional association with STRING,-9,-11.42,-11.244
+sufB,b1683,iscU,b2529,Isolate 1,non-essential,Functional association with STRING,-6.159,-8.08,-11.2632
+sufB,b1683,iscS,b2530,Isolate 2,non-essential,Functional association with STRING,-4.052,-5.104,-11.244
+sufB,b1683,folB,b3058,Isolate 2,non-essential,No functional association with STRING,-7.656,-9.705,-11.244
+fdx,b2525,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-19.814,-11.4723
+fdx,b2525,recA,b2699,Isolate 2,non-essential,No functional association with STRING,-3.475,-5.008,-11.4723
+fdx,b2525,ygfZ,b2898,Isolate 2,non-essential,No functional association with STRING,-8.087,-11.812,-11.4723
+fdx,b2525,folB,b3058,Isolate 2,non-essential,No functional association with STRING,-7.656,-11.177,-11.4723
+hscA,b2526,cof,b0446,Isolate 1,non-essential,No functional association with STRING,-7.459,-6.842,-11.0667
+hscA,b2526,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-14.438,-12.2117
+hscA,b2526,yciM,b1280,Isolate 2,non-essential,No functional association with STRING,-5.828,-6.144,-12.2117
+hscA,b2526,ydfE,b1577,Isolate 1,non-essential,No functional association with STRING,-12.614,-11.672,-11.0667
+hscA,b2526,pykF,b1676,Isolate 2,non-essential,No functional association with STRING,-13.38,-14.296,-12.2117
+hscA,b2526,sufE,b1679,Isolate 1,non-essential,No functional association with STRING,-6.132,-5.599,-11.0667
+hscA,b2526,sufC,b1682,Isolate 2,non-essential,No functional association with STRING,-11.628,-12.405,-12.2117
+hscA,b2526,sufB,b1683,Isolate 1,non-essential,Functional association with STRING,-11.38,-10.516,-11.0667
+hscA,b2526,sufB,b1683,Isolate 2,non-essential,Functional association with STRING,-19.107,-20.479,-12.2117
+hscA,b2526,yedL,b1932,Isolate 2,non-essential,No functional association with STRING,-11.01,-11.738,-12.2117
+hscA,b2526,dsrB,b1952,Isolate 1,non-essential,No functional association with STRING,-11.069,-10.225,-11.0667
+hscA,b2526,wcaK,b2045,Isolate 1,non-essential,No functional association with STRING,-14.632,-13.563,-11.0667
+hscA,b2526,rseA,b2572,Isolate 1,non-essential,No functional association with STRING,-8.93,-8.221,-11.0667
+hscA,b2526,ypjD,b2611,Isolate 2,non-essential,No functional association with STRING,-4.37,-4.57,-12.2117
+hscA,b2526,yqcA,b2790,Isolate 1,non-essential,No functional association with STRING,-7.015,-6.427,-11.0667
+hscA,b2526,ygfZ,b2898,Isolate 1,non-essential,No functional association with STRING,-6.435,-5.884,-11.0667
+hscA,b2526,ygfZ,b2898,Isolate 2,non-essential,No functional association with STRING,-8.087,-8.583,-12.2117
+hscA,b2526,tolC,b3035,Isolate 2,non-essential,No functional association with STRING,-6.506,-6.876,-12.2117
+hscA,b2526,yhhW,b3439,Isolate 1,non-essential,No functional association with STRING,-12.846,-11.89,-11.0667
+hscA,b2526,trmH,b3651,Isolate 1,non-essential,No functional association with STRING,-14.466,-13.407,-11.0667
+hscA,b2526,recF,b3700,Isolate 1,non-essential,No functional association with STRING,-11.976,-11.074,-11.0667
+hscB,b2527,mdlB,b0449,Isolate 1,non-essential,No functional association with STRING,-3.229,-4.478,-11.9573
+hscB,b2527,sufB,b1683,Isolate 1,non-essential,No functional association with STRING,-15.422,-21.869,-11.4814
+iscA,b2528,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-21.924,-11.441
+iscA,b2528,ygfZ,b2898,Isolate 2,non-essential,No functional association with STRING,-8.087,-13.085,-11.441
+iscA,b2528,aaeX,b3242,Isolate 2,non-essential,No functional association with STRING,-3.703,-5.941,-11.441
+iscU,b2529,sufE,b1679,Isolate 1,non-essential,No functional association with STRING,-5.688,-6.784,-10.8256
+iscU,b2529,sufS,b1680,Isolate 1,non-essential,Functional association with STRING,-5.525,-6.588,-10.8256
+iscU,b2529,hemF,b2436,Isolate 1,non-essential,No functional association with STRING,-6.149,-7.337,-10.8256
+iscU,b2529,ygfZ,b2898,Isolate 1,non-essential,No functional association with STRING,-5.415,-6.456,-10.8256
+iscS,b2530,sufE,b1679,Isolate 1,non-essential,Functional association with STRING,-14.617,-18.052,-10.8435
+iscS,b2530,sufS,b1680,Isolate 1,non-essential,Functional association with STRING,-11.076,-13.659,-10.8435
+iscS,b2530,ccmC,b2199,Isolate 1,non-essential,No functional association with STRING,-7.297,-8.97,-10.8435
+iscR,b2531,lpd,b0116,Isolate 2,non-essential,No functional association with STRING,-12.651,-20.186,-11.6942
+iscR,b2531,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-21.562,-11.6942
+iscR,b2531,recA,b2699,Isolate 2,non-essential,No functional association with STRING,-2.548,-4.036,-11.6942
+iscR,b2531,folB,b3058,Isolate 2,non-essential,No functional association with STRING,-7.588,-12.093,-10.97
+iscR,b2531,aaeX,b3242,Isolate 2,non-essential,No functional association with STRING,-2.578,-4.085,-11.6942
+rpoS,b2741,cysB,b1275,Isolate 1,non-essential,Functional association with STRING,-4.734,-6.303,-10.9285
+rpoS,b2741,ubiX,b2311,Isolate 2,non-essential,No functional association with STRING,-2.866,-4.103,-11.1808
+rpoS,b2741,recB,b2820,Isolate 1,non-essential,No functional association with STRING,-4.075,-5.414,-10.9285
+ygcB,b2761,alaS,b2697,Isolate 2,non-essential,No functional association with STRING,-8.679,-11.359,-11.5402
+ygcB,b2761,rfaE,b3052,Isolate 1,non-essential,No functional association with STRING,-4.313,-5.151,-11.6022
+ygcB,b2761,rfaE,b3052,Isolate 2,non-essential,No functional association with STRING,-3.49,-4.447,-11.5402
+ygcB,b2761,rfaD,b3619,Isolate 2,non-essential,No functional association with STRING,-4.671,-6.02,-11.5402
+ygcB,b2761,glnG,b3868,Isolate 1,non-essential,No functional association with STRING,-7.696,-9.331,-11.6022
+recD,b2819,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-29.066,-12.303
+recD,b2819,barA,b2786,Isolate 1,non-essential,No functional association with STRING,-5.883,-10.695,-12.2303
+recD,b2819,yheT,b3353,Isolate 1,non-essential,No functional association with STRING,-14.582,-26.696,-12.2303
+ygfJ,b2877,cysN,b2751,Isolate 1,non-essential,No functional association with STRING,-9.912,-8.77,-12.1526
+ygfJ,b2877,treF,b3519,Isolate 2,non-essential,No functional association with STRING,-4.72,-8.065,-12.3554
+dsbC,b2893,lpcA,b0222,Isolate 2,non-essential,No functional association with STRING,-3.372,-4.937,-12.2923
+dsbC,b2893,folB,b3058,Isolate 2,non-essential,No functional association with STRING,-7.656,-11.364,-12.2923
+greA,b3181,ccmC,b2199,Isolate 1,non-essential,No functional association with STRING,-7.297,-11.137,-11.9895
+greA,b3181,ubiH,b2907,Isolate 1,non-essential,No functional association with STRING,-13.653,-20.906,-11.9895
+greA,b3181,yhaB,b3120,Isolate 1,non-essential,No functional association with STRING,-9.578,-14.643,-11.4558
+rpoN,b3202,rfbD,b2040,Isolate 2,non-essential,No functional association with STRING,-12.682,-28.739,-11.4871
+rpoN,b3202,folB,b3058,Isolate 2,non-essential,No functional association with STRING,-7.656,-17.331,-11.4871
+rpoN,b3202,rfaD,b3619,Isolate 2,non-essential,No functional association with STRING,-2.171,-4.881,-11.4871
+yhcG,b3220,lpd,b0116,Isolate 1,non-essential,No functional association with STRING,-5.961,-13.193,-11.371
+yhcG,b3220,ccmC,b2199,Isolate 1,non-essential,No functional association with STRING,-7.297,-16.185,-11.371
+yhcG,b3220,yihQ,b3878,Isolate 1,non-essential,No functional association with STRING,-3.25,-7.127,-11.371
+mdh,b3236,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-23.792,-11.2147
+mdh,b3236,ccmC,b2199,Isolate 1,non-essential,No functional association with STRING,-7.292,-13.311,-11.2854
+yiiL,b3901,ybhC,b0772,Isolate 2,non-essential,No functional association with STRING,-13.511,-29.821,-12.5145
+yiiL,b3901,folB,b3058,Isolate 2,non-essential,No functional association with STRING,-7.656,-16.871,-12.5145
+yiiL,b3901,gspG,b3328,Isolate 2,non-essential,No functional association with STRING,-2.241,-4.893,-12.5145
+ytfR,b4485,acrB,b0462,Isolate 1,non-essential,No functional association with STRING,-7.318,-13.249,-12.0482
+ytfR,b4485,glnG,b3868,Isolate 1,non-essential,No functional association with STRING,-7.696,-13.934,-12.0482
+mfd,b1114,secA,b0098,SPA-tag essential,SPA-tag essential,Functional association with STRING,-10.238,-8.643,-10.9445
+mfd,b1114,cydC,b0886,SPA-tag essential,SPA-tag essential,No functional association with STRING,-9.004,-7.583,-10.9891
+mfd,b1114,kdsB,b0918,SPA-tag essential,SPA-tag essential,No functional association with STRING,-7.114,-5.961,-10.9891
+mfd,b1114,kdsA,b1215,SPA-tag essential,SPA-tag essential,No functional association with STRING,-6.92,-5.795,-10.9891
+sufB,b1683,pheT,b1713,SPA-tag essential,SPA-tag essential,No functional association with STRING,-3.645,-4.721,-11.2632
+sufB,b1683,infC,b1718,SPA-tag essential,SPA-tag essential,No functional association with STRING,-7.568,-9.963,-11.2632
+hscB,b2527,dnaB,b4052,SPA-tag essential,SPA-tag essential,No functional association with STRING,-3.147,-4.36,-11.9573
+iscS,b2530,accD,b2316,SPA-tag essential,SPA-tag essential,No functional association with STRING,-11.2,-13.812,-10.8435
+ygfJ,b2877,murE,b0085,SPA-tag essential,SPA-tag essential,No functional association with STRING,-7.991,-7.031,-12.1526
+ygfJ,b2877,lpxC,b0096,SPA-tag essential,SPA-tag essential,No functional association with STRING,-9.755,-8.628,-12.1526
+ygfJ,b2877,map,b0168,SPA-tag essential,SPA-tag essential,No functional association with STRING,-6.508,-5.687,-12.1526
+ygfJ,b2877,ispU,b0174,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.758,-5.008,-12.1526
+ygfJ,b2877,lpxD,b0179,SPA-tag essential,SPA-tag essential,No functional association with STRING,-7.533,-6.616,-12.1526
+ygfJ,b2877,fabZ,b0180,SPA-tag essential,SPA-tag essential,No functional association with STRING,-6.511,-5.69,-12.1526
+ygfJ,b2877,lpxA,b0181,SPA-tag essential,SPA-tag essential,No functional association with STRING,-8.687,-7.66,-12.1526
+ygfJ,b2877,lpxB,b0182,SPA-tag essential,SPA-tag essential,No functional association with STRING,-7.283,-6.389,-12.1526
+ygfJ,b2877,dxs,b0420,SPA-tag essential,SPA-tag essential,No functional association with STRING,-8.278,-7.291,-12.1526
+ygfJ,b2877,cysS,b0526,SPA-tag essential,SPA-tag essential,No functional association with STRING,-7.426,-6.519,-12.1526
+ygfJ,b2877,leuS,b0642,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.525,-4.797,-12.1526
+ygfJ,b2877,infC,b1718,SPA-tag essential,SPA-tag essential,No functional association with STRING,-6.408,-5.597,-12.1526
+ygfJ,b2877,der,b2511,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.914,-5.149,-12.1526
+ygfJ,b2877,ffh,b2610,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.057,-4.373,-12.1526
+ygfJ,b2877,fbaA,b2925,SPA-tag essential,SPA-tag essential,No functional association with STRING,-11.913,-10.582,-12.1526
+ygfJ,b2877,pgk,b2926,SPA-tag essential,SPA-tag essential,No functional association with STRING,-12.641,-11.242,-12.1526
+ygfJ,b2877,metK,b2942,SPA-tag essential,SPA-tag essential,No functional association with STRING,-6.633,-5.801,-12.1526
+ygfJ,b2877,parE,b3030,SPA-tag essential,SPA-tag essential,No functional association with STRING,-11.565,-10.267,-12.1526
+ygfJ,b2877,ribB,b3041,SPA-tag essential,SPA-tag essential,No functional association with STRING,-6.87,-6.015,-12.1526
+ygfJ,b2877,cca,b3056,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.596,-4.861,-12.1526
+ygfJ,b2877,murA,b3189,SPA-tag essential,SPA-tag essential,No functional association with STRING,-4.911,-4.241,-12.1526
+ygfJ,b2877,def,b3287,SPA-tag essential,SPA-tag essential,No functional association with STRING,-10.094,-8.935,-12.1526
+ygfJ,b2877,rpsE,b3303,SPA-tag essential,SPA-tag essential,No functional association with STRING,-8.745,-7.713,-12.1526
+ygfJ,b2877,ftsX,b3462,SPA-tag essential,SPA-tag essential,No functional association with STRING,-10.218,-9.047,-12.1526
+ygfJ,b2877,ftsE,b3463,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.645,-4.906,-12.1526
+ygfJ,b2877,kdtA,b3633,SPA-tag essential,SPA-tag essential,No functional association with STRING,-12.985,-11.553,-12.1526
+ygfJ,b2877,dut,b3640,SPA-tag essential,SPA-tag essential,No functional association with STRING,-7.724,-6.789,-12.1526
+ygfJ,b2877,dnaN,b3701,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.413,-4.696,-12.1526
+ygfJ,b2877,glmU,b3730,SPA-tag essential,SPA-tag essential,No functional association with STRING,-10.328,-9.147,-12.1526
+ygfJ,b2877,murI,b3967,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.258,-4.555,-12.1526
+ygfJ,b2877,murB,b3972,SPA-tag essential,SPA-tag essential,No functional association with STRING,-8.41,-7.41,-12.1526
+greA,b3181,ygjD,b3064,SPA-tag essential,SPA-tag essential,No functional association with STRING,-6.848,-10.447,-11.9895
+yrbA,b3190,ygjD,b3064,SPA-tag essential,SPA-tag essential,No functional association with STRING,-5.305,-6.39,-11.7188

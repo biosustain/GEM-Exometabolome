@@ -1,0 +1,52 @@
+cell21,cell22,cell23,cell24,cell25
+EAR100x,h[c] + nadh[c] + tdec2eACP[c]  -> dcaACP[c] + nad[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C100 ,b1288
+EAR100y,h[c] + nadph[c] + tdec2eACP[c]  -> dcaACP[c] + nadp[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C100 ,b1288
+EAR120x,h[c] + nadh[c] + tddec2eACP[c]  -> ddcaACP[c] + nad[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C120 ,b1288
+EAR120y,h[c] + nadph[c] + tddec2eACP[c]  -> ddcaACP[c] + nadp[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C120 ,b1288
+EAR121x,h[c] + nadh[c] + t3c5ddeceACP[c]  -> cddec5eACP[c] + nad[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C121 ,b1288
+EAR121y,h[c] + nadph[c] + t3c5ddeceACP[c]  -> cddec5eACP[c] + nadp[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C121 ,b1288
+EAR140x,h[c] + nadh[c] + tmrs2eACP[c]  -> myrsACP[c] + nad[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C140 ,b1288
+EAR140y,h[c] + nadph[c] + tmrs2eACP[c]  -> myrsACP[c] + nadp[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C140 ,b1288
+EAR141x,h[c] + nadh[c] + t3c7mrseACP[c]  -> nad[c] + tdeACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C141 ,b1288
+EAR141y,h[c] + nadph[c] + t3c7mrseACP[c]  -> nadp[c] + tdeACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C141 ,b1288
+EAR160x,h[c] + nadh[c] + tpalm2eACP[c]  -> nad[c] + palmACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C160 ,b1288
+EAR160y,h[c] + nadph[c] + tpalm2eACP[c]  -> nadp[c] + palmACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C160 ,b1288
+EAR161x,h[c] + nadh[c] + t3c9palmeACP[c]  -> hdeACP[c] + nad[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C161 ,b1288
+EAR161y,h[c] + nadph[c] + t3c9palmeACP[c]  -> hdeACP[c] + nadp[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C161 ,b1288
+EAR180x,h[c] + nadh[c] + toctd2eACP[c]  -> nad[c] + ocdcaACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C180 ,b1288
+EAR180y,h[c] + nadph[c] + toctd2eACP[c]  -> nadp[c] + ocdcaACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C180 ,b1288
+EAR181x,h[c] + nadh[c] + t3c11vaceACP[c]  -> nad[c] + octeACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C181 ,b1288
+EAR181y,h[c] + nadph[c] + t3c11vaceACP[c]  -> nadp[c] + octeACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C181 ,b1288
+EAR40x,but2eACP[c] + h[c] + nadh[c]  -> butACP[c] + nad[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C40 ,b1288
+EAR40y,but2eACP[c] + h[c] + nadph[c]  -> butACP[c] + nadp[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C40 ,b1288
+EAR60x,h[c] + nadh[c] + thex2eACP[c]  -> hexACP[c] + nad[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C60 ,b1288
+EAR60y,h[c] + nadph[c] + thex2eACP[c]  -> hexACP[c] + nadp[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C60 ,b1288
+EAR80x,h[c] + nadh[c] + toct2eACP[c]  -> nad[c] + ocACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADH n C80 ,b1288
+EAR80y,h[c] + nadph[c] + toct2eACP[c]  -> nadp[c] + ocACP[c] ,Cell Envelope Biosynthesis,enoyl acyl carrier protein reductase NADPH n C80 ,b1288
+PTPATi,atp[c] + h[c] + pan4p[c]  -> dpcoa[c] + ppi[c] ,Cofactor and Prosthetic Group Biosynthesis,pantetheine phosphate adenylyltransferase,b3634
+RBFSb,2 dmlz[c]  -> 4r5au[c] + ribflv[c] ,Cofactor and Prosthetic Group Biosynthesis,riboflavin synthase,b0415
+GF6PTA,f6p[c] + gln_L[c]  -> gam6p[c] + glu_L[c] ,Cell Envelope Biosynthesis,glutamine fructose 6 phosphate transaminase,b3729
+RBFSb,2 dmlz[c]  -> 4r5au[c] + ribflv[c] ,Cofactor and Prosthetic Group Biosynthesis,riboflavin synthase,b0415
+CDPMEK,4c2me[c] + atp[c]  -> 2p4c2me[c] + adp[c] + h[c] ,Cofactor and Prosthetic Group Biosynthesis,4 cytidine 5 diphospho 2 C methyl D erythritol kinase,b1208
+GF6PTA,f6p[c] + gln_L[c]  -> gam6p[c] + glu_L[c] ,Cell Envelope Biosynthesis,glutamine fructose 6 phosphate transaminase,b3729
+PHETRS,atp[c] + phe_L[c] + trnaphe[c]  -> amp[c] + phetrna[c] + ppi[c] ,tRNA Charging,Phenylalanyl tRNA synthetase,( b1713  and  b1714 )
+ASPTRS,asp_L[c] + atp[c] + trnaasp[c]  -> amp[c] + asptrna[c] + ppi[c] ,tRNA Charging,Aspartyl tRNA synthetase,b1866
+DHFS,atp[c] + dhpt[c] + glu_L[c]  -> adp[c] + dhf[c] + h[c] + pi[c] ,Cofactor and Prosthetic Group Biosynthesis,dihydrofolate synthase,b2315
+ACCOAC,accoa[c] + atp[c] + hco3[c]  -> adp[c] + h[c] + malcoa[c] + pi[c] ,Membrane Lipid Metabolism,acetyl CoA carboxylase,( b0185  and  b2316  and  b3255  and  b3256 )
+GLUTRS,atp[c] + glu_L[c] + trnaglu[c]  -> amp[c] + glutrna[c] + ppi[c] ,Cofactor and Prosthetic Group Biosynthesis,Glutamyl tRNA synthetase,b2400
+UAAGDS,26dap_M[c] + atp[c] + uamag[c]  -> adp[c] + h[c] + pi[c] + ugmd[c] ,Cell Envelope Biosynthesis,UDP N acetylmuramoyl L alanyl D glutamyl meso 2 6 diaminopimelate synthetase,b0085
+FBA,fdp[c]  <=> dhap[c] + g3p[c] ,GlycolysisGluconeogenesis,fructose bisphosphate aldolase,( b2097  or  b1773  or  b2925 )
+PGK,3pg[c] + atp[c]  <=> 13dpg[c] + adp[c] ,GlycolysisGluconeogenesis,phosphoglycerate kinase,b2926
+METAT,atp[c] + h2o[c] + met_L[c]  -> amet[c] + pi[c] + ppi[c] ,Methionine Metabolism,methionine adenosyltransferase,b2942
+AGPAT120,1ddecg3p[c] + ddcaACP[c]  -> ACP[c] + pa120[c] ,Glycerophospholipid Metabolism,1 tetradecanoyl sn glycerol 3 phosphate O acyltransferase n C120 ,b3018
+AGPAT140,1tdecg3p[c] + myrsACP[c]  -> ACP[c] + pa140[c] ,Glycerophospholipid Metabolism,1 tetradecanoyl sn glycerol 3 phosphate O acyltransferase n C140 ,b3018
+AGPAT141,1tdec7eg3p[c] + tdeACP[c]  -> ACP[c] + pa141[c] ,Glycerophospholipid Metabolism,1 tetradec 7 enoyl sn glycerol 3 phosphate O acyltransferase n C141 ,b3018
+AGPAT160,1hdecg3p[c] + palmACP[c]  -> ACP[c] + pa160[c] ,Glycerophospholipid Metabolism,1 hexadecanoyl sn glycerol 3 phosphate O acyltransferase n C160 ,b3018
+AGPAT161,1hdec9eg3p[c] + hdeACP[c]  -> ACP[c] + pa161[c] ,Glycerophospholipid Metabolism,1 hexadec 7 enoyl sn glycerol 3 phosphate O acyltransferase n C161 ,b3018
+AGPAT180,1odecg3p[c] + ocdcaACP[c]  -> ACP[c] + pa180[c] ,Glycerophospholipid Metabolism,1 octadecanoyl sn glycerol 3 phosphate O acyltransferase n C180 ,b3018
+AGPAT181,1odec11eg3p[c] + octeACP[c]  -> ACP[c] + pa181[c] ,Glycerophospholipid Metabolism,1 octadec 7 enoyl sn glycerol 3 phosphate O acyltransferase n C181 ,b3018
+DB4PS,ru5p_D[c]  -> db4p[c] + for[c] + h[c] ,Cofactor and Prosthetic Group Biosynthesis,3 4 Dihydroxy 2 butanone 4 phosphate synthase,b3041
+UAGCVT,pep[c] + uacgam[c]  -> pi[c] + uaccg[c] ,Cell Envelope Biosynthesis,UDP N acetylglucosamine 1 carboxyvinyltransferase,b3189
+GLUR,glu_D[c]  <=> glu_L[c] ,Cell Envelope Biosynthesis,glutamate racemase,b3967
+UAPGR,h[c] + nadph[c] + uaccg[c]  -> nadp[c] + uamr[c] ,Cell Envelope Biosynthesis,UDP N acetylenolpyruvoylglucosamine reductase,b3972
+PHETRS,atp[c] + phe_L[c] + trnaphe[c]  -> amp[c] + phetrna[c] + ppi[c] ,tRNA Charging,Phenylalanyl tRNA synthetase,( b1713  and  b1714 )
