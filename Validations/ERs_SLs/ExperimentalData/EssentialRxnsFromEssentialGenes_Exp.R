@@ -1,4 +1,4 @@
-#IDENTIFY ESSENTIAL REACTIONS FROM LETHAL GENES || June 7 2022 || EXPERIMENTAL DATA SCRIPT 2/3
+#IDENTIFY ESSENTIAL REACTIONS FROM LETHAL GENES || EXPERIMENTAL DATA SCRIPT 2/3
 #EssentialRxnsFromEssentialGenes_Exp
 #Description: Get 'essential reactions' that come from the MATLAB list of rxns associated with the essential genes from the Keio Collection 
 # NOTE: The final list may also contain genes that will be SL -> as the gene sometimes codes for more than one reaction in the pathway. 
