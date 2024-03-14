@@ -1,4 +1,4 @@
-#IDENTIFY SYNTHETIC LETHALS FROM SYNTHETIC LETHAL GENES || June 7 2020 || EXPERIMENTAL DATA SCRIPT 3/3
+#IDENTIFY SYNTHETIC LETHALS FROM SYNTHETIC LETHAL GENES || EXPERIMENTAL DATA SCRIPT 3/3
 #SynthicLethalsFromGenePairs
 #Description: Get synthetic lethals from the MATLAB list of rxns associated with the pair of lethal genes. 
 #NOTE:Some reactions that should be in this list ended up in the list of single lethal reactions, as they were associated 
