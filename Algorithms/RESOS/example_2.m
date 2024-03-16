@@ -4,10 +4,10 @@
 load('RECON1.mat');
 
 % Prepare parameters for sampling
-    options.loopless = 0; % Turn off loopless option
-    options.compact = 0; % Turn off compact option
-    options.numSamples = 10000; % Sampling Points
-    
+    options.loopless    = 0; % Turn off loopless option
+    options.compact     = 0; % Turn off compact option
+    options.numSamples  = 10000; % Sampling Points
+    options.diagnostics = 0;
 % Perform sampling and save sampling points in a variable
      [results_pool] = looplessFluxSampler(RECON1,options);
     pointsRECON1 = results_pool.points;
