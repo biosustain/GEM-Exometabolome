@@ -22,7 +22,7 @@ This directory contains all the code from testing the RESOS.
 
 2. Models
 
-	2.1 IMM_iCHO_R_33 -> Model used for the examples.  
+	2.1 RECON1 -> Model used for the examples.  
 
 3. Examples
 	3.1 example_1     -> Applying RESOS algorithm with gpSampler
