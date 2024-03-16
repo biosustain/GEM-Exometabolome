@@ -26,5 +26,5 @@ This directory contains all the code from testing the RESOS.
 
 3. Examples
 	3.1 example_1     -> Applying RESOS algorithm with gpSampler
-	3.2 example_2     -> Applying RESOS algorithm with ADBS 
-
+	3.2 example_2     -> Applying RESOS algorithm with ADBS. The function looplessFluxSampler is available in the ADBS folder
+		
