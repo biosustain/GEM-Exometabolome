@@ -7,9 +7,9 @@ load('RECON1.mat');
     options.loopless = 0; % Turn off loopless option
     options.compact = 0; % Turn off compact option
     options.numSamples = 10000; % Sampling Points
-    biomass = printObjective(RECON1);
+    
 % Perform sampling and save sampling points in a variable
-     [results_pool, temp] = looplessFluxSampler_v3(RECON1,biomass,options);
+     [results_pool] = looplessFluxSampler(RECON1,options);
     pointsRECON1 = results_pool.points;
 
 % Analyze sampling points with Continuous Method
