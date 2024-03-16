@@ -28,7 +28,7 @@ EcoK12=EcoK12.iJO1366
 [EcoK12] = generateRules(EcoK12)
 
 %%Load Trancriptomic data 
-pathToTranscri='MetabolicEco_Average.csv'
+pathToTranscri='Transcriptomic_Eco.csv'
 MetbolicEco= readtable(pathToTranscri,'Format','%s%f','Delimiter',',','TextType','string')
 %Parameters for model compaction
 %Find ExcReactions (avoided in loopless analysis) 
