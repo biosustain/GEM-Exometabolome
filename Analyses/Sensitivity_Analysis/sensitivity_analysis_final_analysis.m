@@ -1,7 +1,7 @@
 
 sample_size = 95;
 number_of_tasks = 16;
-iterations = 10;
+iterations = 100;
 
 load('Ex2Task_Work_Space.mat');
 
