@@ -1,0 +1,408 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2022 The MathWorks, Inc.
+                  R2022a (9.12.0.1884302) 64-bit (glnxa64)
+                             February 16, 2022
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+The MATLAB interface for Gurobi 9.5.2 has been installed.
+
+
+
+      _____   _____   _____   _____     _____     |
+     /  ___| /  _  \ |  _  \ |  _  \   / ___ \    |   COnstraint-Based Reconstruction and Analysis
+     | |     | | | | | |_| | | |_| |  | |___| |   |   The COBRA Toolbox - 2023
+     | |     | | | | |  _  { |  _  /  |  ___  |   |
+     | |___  | |_| | | |_| | | | \ \  | |   | |   |   Documentation:
+     \_____| \_____/ |_____/ |_|  \_\ |_|   |_|   |   http://opencobra.github.io/cobratoolbox
+                                                  | 
+
+ > Checking if git is installed ...  Done (version: 2.40.1).
+ > Checking if the repository is tracked using git ...  Done.
+ > Checking if curl is installed ...  Done.
+ > Checking if remote can be reached ...  Done.
+ > Initializing and updating submodules (this may take a while)... Done.
+ > Adding all the files of The COBRA Toolbox ...  Done.
+ > Define CB map output... set to svg.
+ > TranslateSBML is installed and working properly.
+ > Configuring solver environment variables ...
+   - [----] ILOG_CPLEX_PATH: --> set this path manually after installing the solver ( see https://opencobra.github.io/cobratoolbox/docs/solvers.html )
+   - [-*--] GUROBI_PATH: /appl/gurobi/gurobi952/linux64/matlab
+   - [----] TOMLAB_PATH: --> set this path manually after installing the solver ( see https://opencobra.github.io/cobratoolbox/docs/solvers.html )
+   - [----] MOSEK_PATH: --> set this path manually after installing the solver ( see https://opencobra.github.io/cobratoolbox/docs/solvers.html )
+   Done.
+ > Checking available solvers and solver interfaces ...     0
+
+     0
+
+Check osense*c - A'*lam - w = 0 (stationarity):
+     0
+     0
+
+
+ > [gurobi] Primal optimality condition in solveCobraLP satisfied.
+ > [gurobi] Dual optimality condition in solveCobraLP satisfied.
+[Warning: Cplex is not on the MATLAB path. Complete the installation as
+specified here:
+https://opencobra.github.io/cobratoolbox/stable/installation.html#ibm-ilog-cplex] 
+[> In changeCobraSolver (line 452)
+In initCobraToolbox (line 460)
+In ADSB_parser (line 7)] 
+changeCobraSolver: problem initialising CPLEX object: Undefined function 'Cplex' for input arguments of type 'struct'.
+Could not find installation of ibm_cplex, so it cannot be tested
+Could not find installation of tomlab_cplex, so it cannot be tested
+GLPK Simplex Optimizer, v4.42
+1 row, 2 columns, 1 non-zero
+Preprocessing...
+~     0: obj =   0.000000000e+00  infeas =  0.000e+00
+OPTIMAL SOLUTION FOUND BY LP PREPROCESSOR
+
+ > [glpk] Primal optimality condition in solveCobraLP satisfied.Could not find installation of mosek, so it cannot be tested
+
+ > [matlab] Primal optimality condition in solveCobraLP satisfied.
+   --------------------------------------------------------
+   pdco.m                      Version pdco5 of 15 Jun 2018
+   Primal-dual barrier method to minimize a convex function
+   subject to linear constraints Ax + r = b,  bl <= x <= bu
+                                                           
+   Michael Saunders       SOL and ICME, Stanford University
+   Contributors:     Byunggyoo Kim (SOL), Chris Maes (ICME)
+                     Santiago Akle (ICME), Matt Zahr (ICME)
+                     Aekaansh Verma (ME)                   
+   --------------------------------------------------------
+
+The objective is linear
+The matrix A is an explicit sparse matrix
+
+m        =        1     n        =        2      nnz(A)  =        1
+max |b | =        0     max |x0| =  1.0e+00      xsize   =  1.0e+00
+max |y0| =        1     max |z0| =  1.0e+00      zsize   =  1.0e+00
+
+x0min    =        1     featol   =  1.0e-06      d1max   =  1.0e-04
+z0min    =        1     opttol   =  1.0e-06      d2max   =  5.0e-04
+mu0      =  1.0e-01     steptol  =     0.99     bigcenter=     1000
+
+LSMR/MINRES:
+atol1    =  1.0e-10     atol2    =  1.0e-15      btol    =  0.0e+00
+conlim   =  1.0e+12     itnlim   =       10      show    =        0
+
+Method   =        2     (1 or 11=chol  2 or 12=QR  3 or 13=LSMR  4 or 14=MINRES 21=SQD(LU)  22=SQD(MA57))
+Eliminating dy before dx  
+ 
+
+Bounds:
+  [0,inf]  [-inf,0]  Finite bl  Finite bu  Two bnds   Fixed    Free
+        0         0          0          0         0       2       0
+  [0, bu]  [bl,  0]  excluding fixed variables
+        0         0
+
+Itn   mu stepx stepz  Pinf  Dinf  Cinf   Objective    nf  center       QR
+  0                   -6.6 -99.0  -Inf  1.2500000e-07        1.0
+  1 -1.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0        1
+  2 -3.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0
+  3 -5.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0
+  4 -7.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0
+   Converged
+
+max |x| =     0.000    max |y| =     0.000    max |z| =     0.000   scaled
+max |x| =     0.000    max |y| =     0.000    max |z| =     0.000 unscaled
+max |x| and max |z| exclude fixed variables
+PDitns  =         4     QRitns =         0    cputime =       0.1
+
+Distribution of vector     x         z
+[      1,     10 )         0         2
+[    0.1,      1 )         0         0
+[   0.01,    0.1 )         0         0
+[  0.001,   0.01 )         0         0
+[ 0.0001,  0.001 )         0         0
+[  1e-05, 0.0001 )         0         0
+[  1e-06,  1e-05 )         0         0
+[  1e-07,  1e-06 )         0         0
+[  1e-08,  1e-07 )         0         0
+[      0,  1e-08 )         2         0 
+Elapsed time is 0.143002 seconds.
+
+ > [pdco] Primal optimality condition in solveCobraLP satisfied.
+ > [pdco] Dual optimality condition in solveCobraLP satisfied.
+Elapsed time is 0.004024 seconds.
+In 0.004428 sec, file written to /zhome/2e/2/164651/cobratoolbox/binary/glnxa64/bin/minos/data/FBA/qFBA.txt
+
+ > [quadMinos] Primal optimality condition in solveCobraLP satisfied.
+ > [quadMinos] Dual optimality condition in solveCobraLP satisfied.
+Could not find installation of cplex_direct, so it cannot be tested
+[Warning: Cplex is not on the MATLAB path. Complete the installation as
+specified here:
+https://opencobra.github.io/cobratoolbox/stable/installation.html#ibm-ilog-cplex] 
+[> In changeCobraSolver (line 452)
+In initCobraToolbox (line 460)
+In ADSB_parser (line 7)] 
+changeCobraSolver: problem initialising CPLEX object: Undefined function 'Cplex' for input arguments of type 'struct'.
+Could not find installation of cplexlp, so it cannot be tested
+Could not find installation of tomlab_snopt, so it cannot be tested
+ Done.
+ > Setting default solvers ...Could not find installation of mosek, so it cannot be tested
+ Done.
+ > Saving the MATLAB path ...[Warning: Unable to save path to file
+'/appl/matlab/9120/toolbox/local/pathdef.m'. You can save your path to a
+different location by calling SAVEPATH with an input argument that specifies
+the full path. For MATLAB to use that path in future sessions, save the path to
+'pathdef.m' in your MATLAB startup folder.] 
+[> In savepath (line 187)
+In initCobraToolbox (line 559)
+In ADSB_parser (line 7)] 
+ Done.
+   - The MATLAB path was saved as ~/pathdef.m.
+
+ > Summary of available solvers and solver interfaces
+
+			Support 	   LP 	 MILP 	   QP 	 MIQP 	  NLP 	   EP
+	------------------------------------------------------------------------------
+	gurobi       	active        	    1 	    1 	    1 	    1 	    - 	    -
+	ibm_cplex    	active        	    0 	    0 	    0 	    0 	    - 	    -
+	tomlab_cplex 	active        	    0 	    0 	    0 	    0 	    - 	    -
+	glpk         	active        	    1 	    1 	    - 	    - 	    - 	    -
+	mosek        	active        	    0 	    - 	    0 	    - 	    - 	    0
+	matlab       	active        	    1 	    - 	    - 	    - 	    1 	    -
+	pdco         	active        	    1 	    - 	    1 	    - 	    - 	    1
+	quadMinos    	active        	    1 	    - 	    - 	    - 	    - 	    -
+	dqqMinos     	active        	    1 	    - 	    1 	    - 	    - 	    -
+	cplex_direct 	active        	    0 	    0 	    0 	    - 	    - 	    -
+	cplexlp      	active        	    0 	    - 	    - 	    - 	    - 	    -
+	qpng         	passive       	    - 	    - 	    1 	    - 	    - 	    -
+	tomlab_snopt 	passive       	    - 	    - 	    - 	    - 	    0 	    -
+	lp_solve     	legacy        	    1 	    - 	    - 	    - 	    - 	    -
+	------------------------------------------------------------------------------
+	Total        	-             	    7 	    2 	    4 	    1 	    1 	    1
+
+ + Legend: - = not applicable, 0 = solver not compatible or not installed, 1 = solver installed.
+
+
+ > You can solve LP problems using: 'gurobi' - 'glpk' - 'matlab' - 'pdco' - 'quadMinos' 
+ > You can solve MILP problems using: 'gurobi' - 'glpk' 
+ > You can solve QP problems using: 'gurobi' - 'pdco' 
+ > You can solve MIQP problems using: 'gurobi' 
+ > You can solve NLP problems using: 'matlab' 
+ > You can solve EP problems using: 'pdco' 
+
+ > Checking for available updates ...
+ > remote.origin.url = https://github.com/opencobra/cobratoolbox.git
+.
+ > currentBranch = master.
+ > The COBRA Toolbox is up-to-date.
+removing: /zhome/2e/2/164651/cobratoolbox/src/analysis/thermo/componentContribution/new
+removing: /zhome/2e/2/164651/cobratoolbox/src/analysis/thermo/groupContribution/new
+removing: /zhome/2e/2/164651/cobratoolbox/src/analysis/thermo/inchi/new
+removing: /zhome/2e/2/164651/cobratoolbox/src/analysis/thermo/molFiles/new
+removing: /zhome/2e/2/164651/cobratoolbox/src/analysis/thermo/protons/new
+removing: /zhome/2e/2/164651/cobratoolbox/src/analysis/thermo/trainingModel/new
+
+ > changeCobraSolver: Gurobi interface added to MATLAB path.
+ > isCompatible: The compatibility can only be verified on Linux Ubuntu.
+ > isCompatible: The solver compatibility cannot be verified with MATLAB R2022a.
+
+ans =
+
+  logical
+
+   1
+
+e_coli_core.mat
+     1
+
+     1
+
+
+summaryT =
+
+  23x5 table
+
+    Coefficient    Metabolite    metID            Reaction            RxnID
+    ___________    __________    _____    ________________________    _____
+
+       -1.496       3pg_c          3      BIOMASS_Ecoli_core_w_GAM     13  
+      -3.7478       accoa_c       10      BIOMASS_Ecoli_core_w_GAM     13  
+        59.81       adp_c         13      BIOMASS_Ecoli_core_w_GAM     13  
+       4.1182       akg_c         14      BIOMASS_Ecoli_core_w_GAM     13  
+       -59.81       atp_c         17      BIOMASS_Ecoli_core_w_GAM     13  
+       3.7478       coa_c         21      BIOMASS_Ecoli_core_w_GAM     13  
+       -0.361       e4p_c         23      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.0709       f6p_c         26      BIOMASS_Ecoli_core_w_GAM     13  
+       -0.129       g3p_c         33      BIOMASS_Ecoli_core_w_GAM     13  
+       -0.205       g6p_c         34      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.2557       gln__L_c      36      BIOMASS_Ecoli_core_w_GAM     13  
+      -4.9414       glu__L_c      38      BIOMASS_Ecoli_core_w_GAM     13  
+       -59.81       h2o_c         41      BIOMASS_Ecoli_core_w_GAM     13  
+        59.81       h_c           43      BIOMASS_Ecoli_core_w_GAM     13  
+       -3.547       nad_c         50      BIOMASS_Ecoli_core_w_GAM     13  
+        3.547       nadh_c        51      BIOMASS_Ecoli_core_w_GAM     13  
+       13.028       nadp_c        52      BIOMASS_Ecoli_core_w_GAM     13  
+      -13.028       nadph_c       53      BIOMASS_Ecoli_core_w_GAM     13  
+      -1.7867       oaa_c         58      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.5191       pep_c         59      BIOMASS_Ecoli_core_w_GAM     13  
+        59.81       pi_c          60      BIOMASS_Ecoli_core_w_GAM     13  
+      -2.8328       pyr_c         62      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.8977       r5p_c         66      BIOMASS_Ecoli_core_w_GAM     13  
+
+Model loaded: initial model contains 95 rxns and 72 mets.
+Not compressing exchange reactions
+
+summaryT =
+
+  23x5 table
+
+    Coefficient    Metabolite    metID            Reaction            RxnID
+    ___________    __________    _____    ________________________    _____
+
+       -1.496       3pg_c          3      BIOMASS_Ecoli_core_w_GAM     13  
+      -3.7478       accoa_c       10      BIOMASS_Ecoli_core_w_GAM     13  
+        59.81       adp_c         13      BIOMASS_Ecoli_core_w_GAM     13  
+       4.1182       akg_c         14      BIOMASS_Ecoli_core_w_GAM     13  
+       -59.81       atp_c         17      BIOMASS_Ecoli_core_w_GAM     13  
+       3.7478       coa_c         21      BIOMASS_Ecoli_core_w_GAM     13  
+       -0.361       e4p_c         23      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.0709       f6p_c         26      BIOMASS_Ecoli_core_w_GAM     13  
+       -0.129       g3p_c         33      BIOMASS_Ecoli_core_w_GAM     13  
+       -0.205       g6p_c         34      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.2557       gln__L_c      36      BIOMASS_Ecoli_core_w_GAM     13  
+      -4.9414       glu__L_c      38      BIOMASS_Ecoli_core_w_GAM     13  
+       -59.81       h2o_c         41      BIOMASS_Ecoli_core_w_GAM     13  
+        59.81       h_c           43      BIOMASS_Ecoli_core_w_GAM     13  
+       -3.547       nad_c         50      BIOMASS_Ecoli_core_w_GAM     13  
+        3.547       nadh_c        51      BIOMASS_Ecoli_core_w_GAM     13  
+       13.028       nadp_c        52      BIOMASS_Ecoli_core_w_GAM     13  
+      -13.028       nadph_c       53      BIOMASS_Ecoli_core_w_GAM     13  
+      -1.7867       oaa_c         58      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.5191       pep_c         59      BIOMASS_Ecoli_core_w_GAM     13  
+        59.81       pi_c          60      BIOMASS_Ecoli_core_w_GAM     13  
+      -2.8328       pyr_c         62      BIOMASS_Ecoli_core_w_GAM     13  
+      -0.8977       r5p_c         66      BIOMASS_Ecoli_core_w_GAM     13  
+
+The model does not contain infeasible loops active.
+Model reduced: pre-processed model has 85 rxns.
+Performing initial FVA reduction...
+Current progress... 10%
+Current progress... 20%
+Current progress... 30%
+Current progress... 40%
+Current progress... 50%
+Current progress... 60%
+Current progress... 70%
+Current progress... 80%
+Current progress... 90%
+Current progress... 100%
+Performing final FVA reduction...
+Current progress... 10%
+Current progress... 20%
+Current progress... 30%
+Current progress... 40%
+Current progress... 50%
+Current progress... 60%
+Current progress... 70%
+Current progress... 80%
+Current progress... 90%
+Current progress... 100%
+Current progress... 110%
+Model compacted: pre-processed model has 67 rxns.
+72 points spanning the feasible space have been incorporated to the current set.
+Sampling in progress (single core)...
+---------------------------
+%Prog 	 Time 	 Time left
+---------------------------
+10	    0.00	    0.03
+20	    0.01	    0.02
+30	    0.01	    0.02
+40	    0.01	    0.01
+50	    0.01	    0.01
+60	    0.01	    0.01
+70	    0.02	    0.01
+80	    0.02	    0.00
+90	    0.02	    0.00
+100	    0.02	    0.00
+---------------------------
+Sampling finalized.
+Starting MCMC diagnostics...
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 1).
+Parallel pool using the 'local' profile is shutting down.
+Times:
+Time for STEP 0: 28.0975;
+Time for STEP 1: 0.055781;
+Time for STEP 2: 74.2747;
+Time for STEP 3: 0.16683;
+Total time: 74.01 cputime (s)
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 17163854: <exometa_ADSB> in cluster <dcc> Done
+
+Job <exometa_ADSB> was submitted from host <n-62-30-8> by user <s212514> in cluster <dcc> at Mon Aug 21 21:55:08 2023
+Job was executed on host(s) <n-62-31-5>, in queue <hpc>, as user <s212514> in cluster <dcc> at Mon Aug 21 21:55:08 2023
+</zhome/2e/2/164651> was used as the home directory.
+</zhome/2e/2/164651/ADSB_sampler_implementation-main/work/modified_code/final_scripts> was used as the working directory.
+Started at Mon Aug 21 21:55:08 2023
+Terminated at Mon Aug 21 21:57:45 2023
+Results reported at Mon Aug 21 21:57:45 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh 
+### General options 
+### -- specify queue -- 
+#BSUB -q hpc
+### -- set the job Name -- 
+#BSUB -J exometa_ADSB
+### -- ask for number of cores (default: 1) -- 
+#BSUB -n 1
+### -- specify that the cores must be on the same host -- 
+#BSUB -R "span[hosts=1]"
+### -- specify that we need 4GB of memory per core/slot -- 
+#BSUB -R "rusage[mem=16GB]"
+### -- specify that we want the job to get killed if it exceeds 3 GB per core/slot -- 
+#BSUB -M 16GB
+### -- set walltime limit: hh:mm -- 
+#BSUB -W 24:00 
+### -- set the email address -- 
+### BSUB -u ericbaufa10@gmail.com
+### -- send notification at completion -- 
+### BSUB -N
+### -- Specify the output and error file. %J is the job-id -- 
+### -- -o and -e mean append, -oo and -eo mean overwrite -- 
+#BSUB -o output_exometa_ADSB_%J.out 
+#BSUB -e output_exometa_ADSB_%J.err 
+
+### Load modules
+module load matlab/R2022a
+module load gurobi/9.5.2
+
+# here follow the commands you want to execute with input.in as the input file
+matlab -nodisplay -nosplash -nodesktop -r "ADSB_parser('e_coli_core.mat','1','1'); exit;"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   125.00 sec.
+    Max Memory :                                 1842 MB
+    Average Memory :                             1559.75 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               14542.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                108
+    Run time :                                   166 sec.
+    Turnaround time :                            157 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <output_exometa_ADSB_17163854.err> for stderr output of this job.
+
